@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    font-family: 'Gugi', cursive;
+    background: linear-gradient(to right, #2adcdc, rgba(80, 255, 33, 0.7));
+}
+div{
+    border:2px dashed #3834ff;
+    margin: 10px;
+    padding: 5px 30px;
+    border-radius: 15%;
+    box-shadow: 10px 12px #1d2168;
+}
+#principal {
+    width: 50px;
+    float: left;
+    border-radius: 50%;
+}
+div.especial h3{
+    font-family: "Agu Display", serif;
+    text-shadow: 10px 5px #cacaca;
+}

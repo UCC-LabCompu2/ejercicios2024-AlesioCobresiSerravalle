@@ -19,13 +19,13 @@
         <p>
             <label for="posicionY"> Y</label> = <input id="posicionY" type="text" name="inp_y">
         </p>
-        <button>
+        <button type="button" onclick="dibujarimagen(inp_x.value, inp_y.value)">
             Dibujar!
         </button>
     </form>
 </div>
 
-<canvas id="myCanvas" class="ejer">
+<canvas id="myCanvas" class="ejer" width="1000px" height="500px">
     Tu navegador no soporta el tag de HTML5 canvas.
 </canvas>
 
